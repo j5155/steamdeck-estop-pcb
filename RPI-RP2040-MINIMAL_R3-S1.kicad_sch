@@ -7183,12 +7183,6 @@
 		(uuid "aa2a4a13-3aa1-4c3f-bcf4-d9c4140b773c")
 	)
 	(junction
-		(at 83.82 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be5c04b3-e6d7-42be-8f1b-017ba5add2b1")
-	)
-	(junction
 		(at 234.95 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7211,6 +7205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d03bfe7e-d0ee-4b4b-8dff-a9919192acb1")
+	)
+	(junction
+		(at 83.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15f989b-73a4-40bd-b529-6fad1890d9de")
 	)
 	(junction
 		(at 68.58 227.33)
@@ -7468,7 +7468,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 78.74 48.26)
+			(xy 88.9 48.26) (xy 76.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7868,7 +7868,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 83.82 45.72)
+			(xy 76.2 45.72) (xy 83.82 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8095,16 +8095,6 @@
 			(type default)
 		)
 		(uuid "7c2aa544-35b3-4866-bb9d-2cb700b8d5f9")
-	)
-	(wire
-		(pts
-			(xy 54.61 83.82) (xy 54.61 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dfbf9df-1270-4516-b0ed-ef8533014222")
 	)
 	(wire
 		(pts
@@ -8398,7 +8388,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 86.36 50.8)
+			(xy 76.2 50.8) (xy 86.36 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8628,6 +8618,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 53.34) (xy 54.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cdcd74-43f6-490d-8b40-d1440e51946e")
+	)
+	(wire
+		(pts
 			(xy 212.09 175.26) (xy 212.09 190.5)
 		)
 		(stroke
@@ -8685,6 +8685,16 @@
 			(type default)
 		)
 		(uuid "cae39e6f-99b2-49e4-9fc3-9e1fc1d0d772")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcbbdda-2f41-47f2-a9e4-858e797fc4ab")
 	)
 	(wire
 		(pts
@@ -17665,7 +17675,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 59.69 50.8 180)
+		(at 49.53 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17676,29 +17686,27 @@
 		(fields_autoplaced yes)
 		(uuid "1b5c3de0-6b0a-4fc4-8733-6583e4d1fe60")
 		(property "Reference" "J3"
-			(at 60.96 48.2599 0)
+			(at 50.165 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 60.96 50.7999 0)
+			(at 50.165 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 59.69 50.8 0)
+			(at 49.53 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17709,7 +17717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 50.8 0)
+			(at 49.53 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17720,7 +17728,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 59.69 50.8 0)
+			(at 49.53 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20249,7 +20257,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 73.66 50.8 180)
+		(at 81.28 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20257,30 +20265,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "daf5f140-b185-4c6d-867d-c186483b2ac4")
 		(property "Reference" "J4"
-			(at 74.295 40.64 0)
+			(at 82.55 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 74.295 43.18 0)
+			(at 68.072 57.6579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 73.66 50.8 0)
+			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20291,7 +20300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 50.8 0)
+			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20302,7 +20311,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 73.66 50.8 0)
+			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
