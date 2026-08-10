@@ -7087,6 +7087,12 @@
 		(uuid "2002e81a-4ba4-4c7f-87af-21c6f4f941d7")
 	)
 	(junction
+		(at 83.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26045055-9251-4ef8-b0e1-b265c0e79170")
+	)
+	(junction
 		(at 265.43 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7205,12 +7211,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d03bfe7e-d0ee-4b4b-8dff-a9919192acb1")
-	)
-	(junction
-		(at 83.82 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d15f989b-73a4-40bd-b529-6fad1890d9de")
 	)
 	(junction
 		(at 68.58 227.33)
@@ -9296,6 +9296,16 @@
 		)
 		(uuid "63375836-528e-4f39-bcf1-3899d73c858e")
 	)
+	(label "BRIDGE_VBUS"
+		(at 45.72 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6678a8f4-cbdc-453d-a7d8-3adc6d50dd51")
+	)
 	(label "GPIO21"
 		(at 243.84 153.67 180)
 		(effects
@@ -9406,6 +9416,16 @@
 		)
 		(uuid "96cdad23-2bd1-4bee-bdfd-a390e1eb41d8")
 	)
+	(label "BRIDGE_USBD+"
+		(at 48.26 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b698958-b2b4-4129-ba8c-954fda4cf2d4")
+	)
 	(label "QSPI_SCLK"
 		(at 191.77 100.33 270)
 		(effects
@@ -9465,6 +9485,16 @@
 			(justify left bottom)
 		)
 		(uuid "b7d46d17-8c51-40e9-99d5-30dabef7f080")
+	)
+	(label "BRIDGE_GND"
+		(at 54.61 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb16cb02-e444-4210-8ede-062ce2a04216")
 	)
 	(label "GPIO12"
 		(at 181.61 190.5 90)
@@ -9555,6 +9585,16 @@
 			(justify left bottom)
 		)
 		(uuid "d63bbef4-046b-4827-9f29-0bf28fa28525")
+	)
+	(label "BRIDGE_USBD-"
+		(at 46.99 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dea0a0d7-2c58-4b65-8c40-5af5ba829ce2")
 	)
 	(label "~{USB_BOOT}"
 		(at 31.75 125.73 0)
@@ -17675,7 +17715,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 49.53 48.26 0)
+		(at 81.28 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17686,27 +17726,29 @@
 		(fields_autoplaced yes)
 		(uuid "1b5c3de0-6b0a-4fc4-8733-6583e4d1fe60")
 		(property "Reference" "J3"
-			(at 50.165 40.64 0)
+			(at 82.55 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 50.165 43.18 0)
+			(at 82.55 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 49.53 48.26 0)
+			(at 81.28 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17717,7 +17759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 48.26 0)
+			(at 81.28 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17728,7 +17770,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 49.53 48.26 0)
+			(at 81.28 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20257,7 +20299,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 81.28 48.26 0)
+		(at 49.53 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20267,7 +20309,7 @@
 		(dnp no)
 		(uuid "daf5f140-b185-4c6d-867d-c186483b2ac4")
 		(property "Reference" "J4"
-			(at 82.55 48.2599 0)
+			(at 48.26 50.8001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20278,7 +20320,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 68.072 57.6579 0)
+			(at 62.738 41.4021 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20289,7 +20331,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 81.28 48.26 0)
+			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20300,7 +20342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 48.26 0)
+			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20311,7 +20353,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 81.28 48.26 0)
+			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
