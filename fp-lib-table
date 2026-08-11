@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mouse-bite") (type "KiCad") (uri "${KIPRJMOD}/mouse-bite.pretty") (options "") (descr ""))
+)
