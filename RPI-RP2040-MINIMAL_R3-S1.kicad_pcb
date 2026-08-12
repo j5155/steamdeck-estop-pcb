@@ -12354,13 +12354,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ec729c32-55b1-4b8e-a035-bd5ab4f56213")
-		(at 69.099491 64.8517)
+		(at 69.099491 64.7617)
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J4"
 			(at -2.175 0.245 90)
 			(layer "F.SilkS")
-			(uuid "cf214db4-335d-4cc2-9836-92b0b7df4e68")
+			(uuid "b8057f72-a545-4aba-a1fc-20f01c3fb131")
 			(effects
 				(font
 					(size 1 1)
@@ -12371,7 +12371,7 @@
 		(property "Value" "Conn_01x04_Socket"
 			(at -5.175 3.375 90)
 			(layer "F.Fab")
-			(uuid "2f37d500-4edf-4bcc-989c-4073e86b6e65")
+			(uuid "767060c8-1cf3-47f6-b0ef-6b8616a931bc")
 			(effects
 				(font
 					(size 1 1)
@@ -12383,7 +12383,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64176e2a-d27a-4166-98c2-4e2ba155ff37")
+			(uuid "9b94af51-4a4a-4f28-ae0f-12eba9ba9e22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12394,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c06e75b-9f42-4a5d-b8da-e4845081ec13")
+			(uuid "4370bd19-90d0-4b47-94e8-ae055036caec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15954,28 +15954,12 @@
 		(uuid "ffd936fc-84cc-4713-b2ae-a88da21bb675")
 	)
 	(segment
-		(start 57.548963 67.2517)
-		(end 57.185989 66.888726)
+		(start 56.290369 67.388726)
+		(end 56.290369 67.92302)
 		(width 0.8)
 		(layer "F.Cu")
 		(net "/BRIDGE_USBD-")
-		(uuid "230c1c52-6df1-45ef-b338-5ec23dc5b613")
-	)
-	(segment
-		(start 56.290369 67.92302)
-		(end 55.862379 68.35101)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "/BRIDGE_USBD-")
-		(uuid "2b654291-7bb8-433e-8e2a-450efa93b08f")
-	)
-	(segment
-		(start 68.304491 69.1367)
-		(end 57.885 69.1367)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "/BRIDGE_USBD-")
-		(uuid "30efa295-d507-4f8d-87bc-cb5d39875e3b")
+		(uuid "0f70814e-4297-45f3-8a4f-5da671399767")
 	)
 	(segment
 		(start 57.185989 66.888726)
@@ -15983,7 +15967,39 @@
 		(width 0.8)
 		(layer "F.Cu")
 		(net "/BRIDGE_USBD-")
-		(uuid "46187cc4-b1eb-481a-9c2a-36b88fa7ec3f")
+		(uuid "1188787d-9b55-4bfb-b533-4372e5e796f7")
+	)
+	(segment
+		(start 56.290369 67.92302)
+		(end 55.862379 68.35101)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "/BRIDGE_USBD-")
+		(uuid "7dfde1cc-9cec-43cb-95df-4320f114c371")
+	)
+	(segment
+		(start 56.290369 67.92302)
+		(end 55.862379 68.35101)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "/BRIDGE_USBD-")
+		(uuid "851576c5-6fba-42c2-b7e2-4225be9d97cc")
+	)
+	(segment
+		(start 68.304491 69.1367)
+		(end 57.885 69.1367)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "/BRIDGE_USBD-")
+		(uuid "8d160bb8-d3f8-4df9-8f31-aee5e533a074")
+	)
+	(segment
+		(start 57.548963 67.2517)
+		(end 57.185989 66.888726)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "/BRIDGE_USBD-")
+		(uuid "a3948fb9-4e5c-46f9-8916-b7fb0eadc9ee")
 	)
 	(segment
 		(start 55.862379 68.35101)
@@ -15991,15 +16007,7 @@
 		(width 0.8)
 		(layer "F.Cu")
 		(net "/BRIDGE_USBD-")
-		(uuid "628cb94e-448e-4707-87e8-726c45e797dd")
-	)
-	(segment
-		(start 57.548963 68.800663)
-		(end 57.548963 67.2517)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "/BRIDGE_USBD-")
-		(uuid "7c5bd409-ed44-4849-9188-63d722f3033e")
+		(uuid "b8909dc5-20b3-4719-859a-3f4d6f3ab9da")
 	)
 	(segment
 		(start 56.790369 66.888726)
@@ -16007,7 +16015,15 @@
 		(width 0.8)
 		(layer "F.Cu")
 		(net "/BRIDGE_USBD-")
-		(uuid "b5a7fe4e-9325-43ff-90fa-95ad2ec4a2c5")
+		(uuid "c221c861-d785-4c85-b519-3ef2c23fa54d")
+	)
+	(segment
+		(start 69.099491 69.8417)
+		(end 69.009491 69.8417)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "/BRIDGE_USBD-")
+		(uuid "c66262e8-02d8-4396-8c55-98316d7eaee4")
 	)
 	(segment
 		(start 56.290369 67.388726)
@@ -16015,23 +16031,15 @@
 		(width 0.8)
 		(layer "F.Cu")
 		(net "/BRIDGE_USBD-")
-		(uuid "e0e42fb8-511f-44e0-8762-1a5db2dbab9b")
+		(uuid "cb457be9-a617-45d4-b949-c92afbf6ee8b")
 	)
 	(segment
-		(start 69.099491 69.9317)
+		(start 69.009491 69.8417)
 		(end 68.304491 69.1367)
 		(width 0.8)
 		(layer "F.Cu")
 		(net "/BRIDGE_USBD-")
-		(uuid "f5b5f364-9cf8-4011-887b-e5dc31462c7c")
-	)
-	(segment
-		(start 57.885 69.1367)
-		(end 57.548963 68.800663)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "/BRIDGE_USBD-")
-		(uuid "f7d84cbb-4e9c-411d-acdd-a1294e29b6cb")
+		(uuid "f3b2230d-5e23-4f5b-a36c-16f4308f3633")
 	)
 	(segment
 		(start 99.065 104.783059)
@@ -18949,26 +18957,29 @@
 	)
 	(group ""
 		(uuid "688c3a1a-f850-469d-8c46-4fb877c53df3")
-		(members "08ed00fb-4383-4784-9f73-20c77df3a7b1" "11138360-4d5f-4d89-a739-270dc29e5116"
-			"16541364-1a27-4dd7-b501-a1626643ce21" "1a7b04c7-4b20-4338-920c-d0ed9b441c8f"
-			"230c1c52-6df1-45ef-b338-5ec23dc5b613" "257138e0-8c02-4750-9f29-338e21e70f00"
-			"2b654291-7bb8-433e-8e2a-450efa93b08f" "30efa295-d507-4f8d-87bc-cb5d39875e3b"
+		(members "0187dbe7-e8c2-450c-8aef-24eb5325b12b" "08ed00fb-4383-4784-9f73-20c77df3a7b1"
+			"0f70814e-4297-45f3-8a4f-5da671399767" "11138360-4d5f-4d89-a739-270dc29e5116"
+			"1188787d-9b55-4bfb-b533-4372e5e796f7" "16541364-1a27-4dd7-b501-a1626643ce21"
+			"1a7b04c7-4b20-4338-920c-d0ed9b441c8f" "257138e0-8c02-4750-9f29-338e21e70f00"
+			"288ee3e2-d988-40b0-bd9d-ea7de64a6508" "34987f01-9a02-49e2-ae9c-1c0d6e4b879a"
 			"391d9f5c-957c-4d8b-9aeb-af80f551a1b5" "3997b664-7fbc-467e-9989-582e64dc57c5"
 			"3aa0997d-4e33-4535-ab10-8e3ba68186ec" "3d982280-7e01-40f2-92f3-356c6e73459e"
-			"46187cc4-b1eb-481a-9c2a-36b88fa7ec3f" "5ca27ec8-ca4d-4a09-a410-fc4a9169b3b1"
-			"628cb94e-448e-4707-87e8-726c45e797dd" "6404b271-0a23-4daa-9669-2c53fca30ff3"
+			"61bf2c16-d640-4481-8421-19e295e17405" "6404b271-0a23-4daa-9669-2c53fca30ff3"
 			"664a0fce-0ed9-4c2e-9395-93db82470be6" "6e100cc0-e9b3-4eb8-82b0-da4d9fa4cd20"
-			"71e8feaa-ad86-4fff-ad70-0ec18ffcd9e4" "7c5bd409-ed44-4849-9188-63d722f3033e"
-			"838c6daf-b5d4-4028-91aa-34eeade1a8f6" "86904204-f297-4165-9239-305653056d9d"
+			"7030e1ae-2083-4e0c-b310-6d0bb6cff4db" "71e8feaa-ad86-4fff-ad70-0ec18ffcd9e4"
+			"7dfde1cc-9cec-43cb-95df-4320f114c371" "838c6daf-b5d4-4028-91aa-34eeade1a8f6"
+			"851576c5-6fba-42c2-b7e2-4225be9d97cc" "86904204-f297-4165-9239-305653056d9d"
 			"8a055d9b-cff1-4a25-8f95-e32bc02e42eb" "8ab97694-2f58-485c-b18e-a6ffee00ea84"
-			"8fe77c87-7bff-4a4e-b616-8c416ee26bfb" "96195365-365b-4246-ad06-d37062c93fe3"
-			"96b7201e-1eaf-4251-9978-d0425f73d9f5" "9711f30b-6031-4524-9bf1-3bb795aa0915"
+			"8d160bb8-d3f8-4df9-8f31-aee5e533a074" "8fe77c87-7bff-4a4e-b616-8c416ee26bfb"
+			"96195365-365b-4246-ad06-d37062c93fe3" "96b7201e-1eaf-4251-9978-d0425f73d9f5"
+			"9711f30b-6031-4524-9bf1-3bb795aa0915" "a3948fb9-4e5c-46f9-8916-b7fb0eadc9ee"
 			"a43971be-2932-40ed-909f-1ccc4ce9f7d0" "a83b520f-0de3-44e5-8523-669a51519cc3"
-			"a99811d5-4d79-4925-9e62-cd4e3308589b" "b5a7fe4e-9325-43ff-90fa-95ad2ec4a2c5"
-			"c9b54a73-55b4-4a13-b75f-a99519f7eb76" "d5cff7bb-9d67-4bc1-a76e-e58f62ce7cbf"
-			"d8e99e28-de6b-4418-94fc-b0d08fbf36d4" "e0e42fb8-511f-44e0-8762-1a5db2dbab9b"
-			"f4ae312d-250b-4c3b-8e96-93bde8e4b53c" "f5b5f364-9cf8-4011-887b-e5dc31462c7c"
-			"f7d84cbb-4e9c-411d-acdd-a1294e29b6cb" "ffd936fc-84cc-4713-b2ae-a88da21bb675"
+			"a99811d5-4d79-4925-9e62-cd4e3308589b" "b8909dc5-20b3-4719-859a-3f4d6f3ab9da"
+			"c221c861-d785-4c85-b519-3ef2c23fa54d" "c66262e8-02d8-4396-8c55-98316d7eaee4"
+			"c9b54a73-55b4-4a13-b75f-a99519f7eb76" "cb457be9-a617-45d4-b949-c92afbf6ee8b"
+			"d5cff7bb-9d67-4bc1-a76e-e58f62ce7cbf" "d8e99e28-de6b-4418-94fc-b0d08fbf36d4"
+			"ec729c32-55b1-4b8e-a035-bd5ab4f56213" "f3b2230d-5e23-4f5b-a36c-16f4308f3633"
+			"f4ae312d-250b-4c3b-8e96-93bde8e4b53c"
 		)
 	)
 	(group ""
