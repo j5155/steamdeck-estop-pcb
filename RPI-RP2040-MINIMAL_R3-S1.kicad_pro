@@ -1074,7 +1074,7 @@
         "uuid": "8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
       }
     ],
-    "used_designators": "SW1-2,J1,J3-4,BOOT_SEL1,P1,PCB1,ESTOP1,SBREV1,VARIANT1",
+    "used_designators": "R6-7,#PWR1,SW1-2,J1,J3-4,BOOT_SEL1,P1,PCB1,ESTOP1,SBREV1,VARIANT1",
     "variants": []
   },
   "sheets": [

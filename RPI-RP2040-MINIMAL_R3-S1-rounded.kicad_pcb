@@ -13205,6 +13205,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 65 95)
+		(end 75 105)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d01fdd5e-e5db-4700-809b-97d5f2b0137b")
+	)
 	(gr_line
 		(start 50.5 61.7517)
 		(end 50.5 75.7517)
@@ -21347,46 +21358,17 @@
 			)
 		)
 	)
-	(zone
-		(layer "F.SilkS")
-		(uuid "b1057a32-ecda-438f-b1f1-2b6f6bd62b1d")
-		(hatch edge 0.508)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.2)
-		(fill yes
-			(thermal_gap 0.3)
-			(thermal_bridge_width 0.3)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 73.5 92.5) (xy 63.5 92.5) (xy 63.5 102.5) (xy 73.5 102.5)
-			)
-		)
-		(filled_polygon
-			(layer "F.SilkS")
-			(island yes)
-			(pts
-				(xy 73.459191 92.518907) (xy 73.495155 92.568407) (xy 73.5 92.599) (xy 73.5 102.401) (xy 73.481093 102.459191)
-				(xy 73.431593 102.495155) (xy 73.401 102.5) (xy 63.599 102.5) (xy 63.540809 102.481093) (xy 63.504845 102.431593)
-				(xy 63.5 102.401) (xy 63.5 92.599) (xy 63.518907 92.540809) (xy 63.568407 92.504845) (xy 63.599 92.5)
-				(xy 73.401 92.5)
-			)
-		)
-	)
 	(group ""
 		(uuid "688c3a1a-f850-469d-8c46-4fb877c53df3")
 		(members "7030e1ae-2083-4e0c-b310-6d0bb6cff4db" "71e8feaa-ad86-4fff-ad70-0ec18ffcd9e4"
-			"75b64f6e-cabd-4898-9bc3-e9c8d97c8368" "86904204-f297-4165-9239-305653056d9d"
-			"8a055d9b-cff1-4a25-8f95-e32bc02e42eb" "8ab97694-2f58-485c-b18e-a6ffee00ea84"
-			"96195365-365b-4246-ad06-d37062c93fe3" "96b7201e-1eaf-4251-9978-d0425f73d9f5"
-			"9711f30b-6031-4524-9bf1-3bb795aa0915" "a43971be-2932-40ed-909f-1ccc4ce9f7d0"
-			"a83b520f-0de3-44e5-8523-669a51519cc3" "a99811d5-4d79-4925-9e62-cd4e3308589b"
-			"bb80e3a1-be2f-4f57-836c-e9777ddf31bc" "c9b54a73-55b4-4a13-b75f-a99519f7eb76"
-			"d5cff7bb-9d67-4bc1-a76e-e58f62ce7cbf" "dfc72a59-37ad-4371-bd75-ba64bde0549d"
-			"ec729c32-55b1-4b8e-a035-bd5ab4f56213" "f4ae312d-250b-4c3b-8e96-93bde8e4b53c"
+			"75b64f6e-cabd-4898-9bc3-e9c8d97c8368" "8a055d9b-cff1-4a25-8f95-e32bc02e42eb"
+			"8ab97694-2f58-485c-b18e-a6ffee00ea84" "96195365-365b-4246-ad06-d37062c93fe3"
+			"96b7201e-1eaf-4251-9978-d0425f73d9f5" "9711f30b-6031-4524-9bf1-3bb795aa0915"
+			"a43971be-2932-40ed-909f-1ccc4ce9f7d0" "a83b520f-0de3-44e5-8523-669a51519cc3"
+			"a99811d5-4d79-4925-9e62-cd4e3308589b" "bb80e3a1-be2f-4f57-836c-e9777ddf31bc"
+			"c9b54a73-55b4-4a13-b75f-a99519f7eb76" "d5cff7bb-9d67-4bc1-a76e-e58f62ce7cbf"
+			"dfc72a59-37ad-4371-bd75-ba64bde0549d" "ec729c32-55b1-4b8e-a035-bd5ab4f56213"
+			"f4ae312d-250b-4c3b-8e96-93bde8e4b53c"
 		)
 	)
 	(embedded_fonts no)
